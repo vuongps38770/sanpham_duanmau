@@ -5,7 +5,7 @@ Description:
 ------------
 - Đây là sản phẩm môn Dự án mẫu của nhóm Tooclose.
 - Các thành viên : Đào Tân Quốc Vương (ps38770) và Nguyễn Tiến Sĩ (ps38830).
-- Dựa trên dự án mẫu chúng tôi đã thiết kế và phát triển ứng dụng Toocloselib tuy có thể tồn tại thiếu sót, nhưng chúng tôi rất mong sự giúp đỡ và đóng góp ý kiến của mọi người
+- Dựa trên dự án mẫu chúng tôi đã thiết kế và phát triển ứng dụng Toocloselib tuy có thể tồn tại thiếu sót, nhưng chúng tôi rất mong sự giúp đỡ và đóng góp ý kiến của mọi người!
 
 How to Isntall:
 ------------
