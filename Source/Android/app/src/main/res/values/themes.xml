@@ -1,0 +1,32 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyApplication" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="actionOverflowButtonStyle">@style/OverflowButtonStyle</item>
+    </style>
+
+
+    <style name="OverflowButtonStyle" parent="Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:src">@drawable/menu</item>
+
+    </style>
+
+
+    <style name="Theme.MyApplication" parent="Base.Theme.MyApplication" >
+        <item name="popupMenuBackground">@drawable/menu_background</item>
+<!--        <item name="android:dropDownListViewStyle">@style/PopupMenuListView</item>-->
+
+
+    </style>
+    <style name="PopupMenuListView">
+        <item name="android:divider">#ff0000</item>
+        <item name="android:dividerHeight">1dp</item>
+    </style>
+
+    <style name="Dialog">
+        <item name="android:windowEnterAnimation">@anim/slide_in</item>
+        <item name="android:windowExitAnimation">@anim/slide_out</item>
+    </style>
+
+</resources>

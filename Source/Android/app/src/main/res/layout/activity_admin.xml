@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Admin_activity"
+    android:background="@color/gray"
+    >
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/admin_menu"
+        style="@style/Theme.AppCompat.DayNight.DarkActionBar"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="0dp"
+        android:background="@color/main"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:logo="@drawable/account"
+        app:titleMarginStart="0dp"
+        tools:layout_editor_absoluteX="0dp"
+        app:layout_constraintTop_toBottomOf="parent"
+        />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/admin_menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_weight="1"
+        android:paddingHorizontal="10dp">
+
+        <ListView
+            android:id="@+id/admin_lv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:divider="@color/gray"
+            android:dividerHeight="10dp"
+            android:paddingBottom="50dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="trống"
+            android:textSize="30sp"
+            android:id="@+id/alertTitle"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:background="@drawable/group_1__1_"
+            android:drawablePadding="0dp"
+            android:layout_marginBottom="80dp"
+            android:scaleX="0.7"
+            android:scaleY="0.7"/>
+
+<!--    <com.google.android.material.navigation.NavigationView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+    </FrameLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group
+        android:id="@+id/group1">
+        <item android:id="@+id/qly_sach"
+            android:title="Quản lý sách"
+            app:showAsAction="never" />
+        <item android:id="@+id/qly_loaisach"
+            android:title="Quản lý loại sách"
+            app:showAsAction="never" />
+        <item android:id="@+id/qly_nguoidung"
+            android:title="Quản lý người dùng"
+            app:showAsAction="never" />
+    </group>
+
+
+    <group
+        android:id="@+id/group2">
+        <item android:id="@+id/changePass"
+            android:title="Đổi mật khẩu"
+            app:showAsAction="never"/>
+        <item android:id="@+id/signout"
+            android:title="Đăng xuất"
+            app:showAsAction="never"/>
+        <item android:id="@+id/exit"
+            android:title="Thoát"
+            app:showAsAction="never"/>
+    </group>
+
+
+    <item
+        android:id="@+id/search"
+        android:title="Tìm kiếm"
+        android:icon="@drawable/search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="always"/>
+
+</menu>

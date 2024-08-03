@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="horizontal"
+    android:paddingRight="10dp"
+    android:background="@drawable/item_bg"
+    android:paddingVertical="5dp"
+    >
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/book"
+        android:scaleX="0.6"
+        android:scaleY="0.6"/>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:orientation="vertical"
+        android:layout_marginRight="20dp">
+        <TextView
+            android:id="@+id/tensach"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Sách tiếng anh lớp mầm"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:gravity="bottom"
+            android:padding="0dp"/>
+        <TextView
+            android:id="@+id/tacgia"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:text="Tên: Si hehe"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/ngaymuon"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:text="Tên: Si hehe"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/xoa"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_marginRight="20dp"
+        android:layout_weight="1.3"
+        android:background="@drawable/button_bg"
+        android:backgroundTint="@color/gray"
+        android:text="Xoá"
+        android:textAllCaps="false" />
+
+</LinearLayout>
